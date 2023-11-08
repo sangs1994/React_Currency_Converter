@@ -12,7 +12,7 @@ import {
     faSyncAlt, faRepeat, faRightLeft, faCircleInfo
 } from "@fortawesome/free-solid-svg-icons";
 
-const URL = `https://v6.exchangerate-api.com/v6/${process.env.REACT_APP_EXCHANGE_RATE_API_KEY}/pair`;
+const URL = `https://v6.exchangerate-api.com/v6/722292f0b61ff5332b56b79d/pair`;
 
 function currencyConverter(props) {
     const [exchangeRate, setExchangeRate] = useState(0);
